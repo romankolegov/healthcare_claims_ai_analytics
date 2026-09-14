@@ -9,6 +9,7 @@ The 2025 year-end report showed that diabetes spending increased by 20% compared
 3. List members who contributed to the increase the most?
 4. How was the increase distributed among high-claimants?
 5. Which diagnoses, procedures, or places of service generated the additional spending?
+6. Which members are most likely to become high-cost diabetes claimants in 2026?
 
 ## Project Architecture
 
