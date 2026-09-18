@@ -1,4 +1,4 @@
-# AI-Powered Healthcare Support Intelligence
+# AI-Assisted Diabetes Cost and High-Cost Claimant Analytics
 
 ## Business Problem
 The 2025 year-end report showed that diabetes spending increased by 20% compared with 2024. However, the report did not explain whether the increase was caused by inpatient, outpatient, or professional claims. The organization needs to identify high-cost claimants and understand which members contributed most to the increase.
