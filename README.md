@@ -40,13 +40,14 @@ This project uses a synthetic healthcare claims database representing member eli
 
 ### Dataset Files
 
-1. `member_eligibility.csv` - Contains MEMBER_ID, SUB_ID, SUB_FNM, SUB_LNM, PAT_FNM, PAT_LNM, DOB, GENDER, PAT_REL, START_DATE, END_DATE
-3. `medical_claims.csv`
-4. `diagnosis_reference.csv`
-5. `procedure_reference.csv`
-6. `place_of_service_reference.csv`
-7. `provider_reference.csv`
+1. `member_eligibility.csv` - Contains demographic, subscriber relationship, and coverage-period information for each member included in the analysis.
+2. `medical_claims.csv` - Contains one record per medical claim service line, including claim identifiers, dates of service and payment, paid and allowed amounts, claim type, and clinical reference codes.
+3. `diagnosis_reference.csv`
+4. `procedure_reference.csv`
+5. `place_of_service_reference.csv`
+6. `provider_reference.csv`
 
+CLM_NUM, CLM_LINE_NUM, MEMBER_ID, DOS, PAID_DT, PAID_AMT, ALLOWED_AMT, CLAIM_TYPE, CLM_STATUS
 
 ## Data Model
 
