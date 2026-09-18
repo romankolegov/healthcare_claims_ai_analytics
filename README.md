@@ -13,6 +13,14 @@ The 2025 year-end report showed that diabetes spending increased by 20% compared
 
 ## Project Architecture
 This project combines historical data from 2024 and 2025 to identify the members and services that contributed to the increase in diabetes-related spending and predict which members may become high-cost claimants in 2026.
+```mermaid
+flowchart TD
+    A[Member Eligibility]
+    B[Medical Claims]
+    C[Diagnosis Reference]
+    D[Procedure Reference]
+    E[Place-of-Service Reference]
+    F[Provider Reference]
 
 ## Dataset
 
