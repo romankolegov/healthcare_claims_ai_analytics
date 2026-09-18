@@ -38,6 +38,16 @@ flowchart TD
 ## Dataset
 This project uses a synthetic healthcare claims database representing member eligibility and medical claims from 2024 through 2025. It contains no real patient information, and any resemblance to real individuals or claims is coincidental. The dataset was designed to simulate a 23% increase in diabetes-related spending.
 
+### Dataset Files
+
+1. `member_eligibility.csv` - Contains MEMBER_ID, SUB_ID, SUB_FNM, SUB_LNM, PAT_FNM, PAT_LNM, DOB, GENDER, PAT_REL, START_DATE, END_DATE
+3. `medical_claims.csv`
+4. `diagnosis_reference.csv`
+5. `procedure_reference.csv`
+6. `place_of_service_reference.csv`
+7. `provider_reference.csv`
+
+
 ## Data Model
 
 ## SQL Data Preparation
