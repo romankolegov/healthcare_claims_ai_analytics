@@ -15,23 +15,25 @@ The 2025 year-end report showed that diabetes spending increased by 20% compared
 This project combines historical data from 2024 and 2025 to identify the members and services that contributed to the increase in diabetes-related spending and predict which members may become high-cost claimants in 2026.
 ```mermaid
 flowchart TD
-    A[Member Eligibility]
-    B[Medical Claims]
-    C[Diagnosis Reference]
-    D[Procedure Reference]
-    E[Place-of-Service Reference]
-    F[Provider Reference]
+    A["Member Eligibility"] --> G["SQL Data Preparation"]
+    B["Medical Claims"] --> G
+    C["Diagnosis Reference"] --> G
+    D["Procedure Reference"] --> G
+    E["Place of Service Reference"] --> G
+    F["Provider Reference"] --> G
 
-    G[SQL Data Preparation]
-    H[Validated Diabetes Claims Dataset]
+    G --> H["Validated Diabetes Claims Dataset"]
 
-    A --> G
-    B --> G
-    C --> G
-    D --> G
-    E --> G
-    F --> G
-    G --> H
+    H --> I["Historical Cost Driver Analysis"]
+    H --> J["Member Level Feature Engineering"]
+
+    I --> K["Cost Drivers and High Cost Claimants"]
+    K --> O["Power BI Dashboard and Recommendations"]
+
+    J --> L["Predictive Model Training"]
+    L --> M["Model Evaluation"]
+    M --> N["2026 High Cost Risk Scores"]
+    N --> O
 ```
 ## Dataset
 
