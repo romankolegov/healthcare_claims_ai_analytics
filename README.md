@@ -36,6 +36,7 @@ flowchart TD
     N --> O
 ```
 ## Dataset
+This project uses a synthetic healthcare claims database representing member eligibility and medical claims from 2024 through 2025. It contains no real patient information, and any resemblance to real individuals or claims is coincidental. The dataset was designed to simulate a 23% increase in diabetes-related spending.
 
 ## Data Model
 
