@@ -21,6 +21,17 @@ flowchart TD
     D[Procedure Reference]
     E[Place-of-Service Reference]
     F[Provider Reference]
+
+    G[SQL Data Preparation]
+    H[Validated Diabetes Claims Dataset]
+
+    A --> G
+    B --> G
+    C --> G
+    D --> G
+    E --> G
+    F --> G
+    G --> H
 ```
 ## Dataset
 
