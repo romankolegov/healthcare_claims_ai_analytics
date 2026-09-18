@@ -42,12 +42,19 @@ This project uses a synthetic healthcare claims database representing member eli
 
 1. `member_eligibility.csv` - Contains demographic, subscriber relationship, and coverage-period information for each member included in the analysis.
 2. `medical_claims.csv` - Contains one record per medical claim service line, including claim identifiers, dates of service and payment, paid and allowed amounts, claim type, and clinical reference codes.
-3. `diagnosis_reference.csv`
-4. `procedure_reference.csv`
+3. `diagnosis_reference.csv` - Contains descriptions and clinical categories for diagnosis codes, including an indicator identifying diabetes-related diagnoses.
+4. `procedure_reference.csv` - 
 5. `place_of_service_reference.csv`
 6. `provider_reference.csv`
 
 CLM_NUM, CLM_LINE_NUM, MEMBER_ID, DOS, PAID_DT, PAID_AMT, ALLOWED_AMT, CLAIM_TYPE, CLM_STATUS
+
+MDC, LN_DIAG, POS, PROVIDER_ID
+
+DIAG_CODE
+DIAG_DESCRIPTION
+DIAG_CATEGORY
+DIABETES_FLAG
 
 ## Data Model
 
