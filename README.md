@@ -37,15 +37,17 @@ flowchart TD
 ```
 ## Dataset
 
-## Data Preparation and Exploratory Analysis
+## Data Model
 
-## LLM Classification Pipeline
+## SQL Data Preparation
 
-## Response Generation
+## Historical Cost-Driver Analysis
+
+## Member-Level Feature Engineering
+
+## Predictive Modeling
 
 ## Model Evaluation
-
-## SQL Analysis
 
 ## Power BI Dashboard
 
